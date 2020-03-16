@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+	font-family:new-font, sans-serif;
+}
+    
+ body{
+    background:beige;
+	
+}
+#container{
+    width:1000px;
+    margin:0 auto;
+}
+  header{
+    background:#f1ba9b;
+    height:300px;
+    border-radius:5px;
+    }
+    
+	header h1{
+        color:black;
+        padding:20px;
+		text-align:left;
+		font-size:50px;
+		
+      }
+	  .style{
+		  float:left;
+		  font-size:25px;
+		  margin:50px 0;
+		
+	  }
+	 
+	 .controlloimmagine{
+		 height:250px;
+		 float: right;
+		 margin:-50px 0;
+       }
+	  
+	#sec1{
+          float:left;
+          width:650px;
+      }
+      article{
+          background:white;
+          padding:20px;
+          margin:10px 0;
+          border-radius:5px;
+          box-shadow: inset 0 0 5px gray;
+	  }
+	  
+      .title{
+          color:#419c99;
+          margin:10px 0px;
+          font-size:50px;
+		  
+         }
+         .description{
+        font-size:60px;
+        line-height:60px;
+	
+		}
+		nav li{
+			float:center;
+			margin:5px 0 10px 30px;
+	}
+    footer{
+        background:#f1ba9b;
+	    margin:20px 20px;
+        text-align:center;
+        padding:10px;
+        border-radius:5px;
+		font-size:50px;
+       height:170px;
+	  
+    }
+	
+	.controlloimmagine1{
+		width:20px;
+		height:20px;
+		padding:2px;
+		}
+		
+		@font-face{
+		font-family:new-font;
+        src:url(Mandalika.ttf);
+		}
+ 
